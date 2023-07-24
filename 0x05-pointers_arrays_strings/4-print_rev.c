@@ -1,3 +1,4 @@
+26 lines (20 loc) · 296 Bytes
 #include "main.h"
 
 /**
@@ -8,7 +9,7 @@ void print_rev(char *s)
 {
 	int i, j, len;
 
-:	i = 0;
+	i = 0;
 
 	while (s[i] != '\0')
 	{
@@ -24,3 +25,4 @@ void print_rev(char *s)
 
 	_putchar('\n');
 }
+
